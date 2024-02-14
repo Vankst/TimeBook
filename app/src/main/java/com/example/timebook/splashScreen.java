@@ -123,7 +123,7 @@ public class splashScreen extends AppCompatActivity {
                 if(dbHelper.isTableExists("users")){
                     getUserProgress();
                 }else{
-                    toAuth();
+                    getQuiz();
                 }
 
             }

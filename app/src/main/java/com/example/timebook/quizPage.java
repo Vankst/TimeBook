@@ -48,6 +48,7 @@ public class quizPage extends AppCompatActivity {
         countQuestion = dbHelper.getCountQuestion();
 
 
+
         questionTextView = findViewById(R.id.questionTextView);
 
         countQuestionTextView = findViewById(R.id.countQuestionTextView);
