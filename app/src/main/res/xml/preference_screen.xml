@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/action_settings">
+
+    </PreferenceCategory>
+    <ListPreference
+        android:defaultValue="Средний"
+        android:entries="@array/text_size_array"
+        android:entryValues="@array/text_size_array"
+        android:key="main_text_size"
+        android:title="@string/text_size" />
+</PreferenceScreen>
